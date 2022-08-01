@@ -1,3 +1,5 @@
+var letra = 'X'
+
 function joga(){
 
 }
