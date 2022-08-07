@@ -1,9 +1,14 @@
-function joga() {}
+var letra = 'X';
+
+function joga() {
+
+
+}
 function novo() {
     for (i=1; i<4 ; i++) {
         for(j=1; j<4; j++) {
             nomecelula = 'cel' + i + j
-            document.getElementById(nomecelula).innerHTML 
+            document.getElementById(nomecelula).innerHTML = '';
         }
     }
 }
