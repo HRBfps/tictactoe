@@ -1,8 +1,17 @@
 var letra = 'X';
 
-function joga() {
-
-
+function joga(celula) {
+    celulaclicada= document.getElementById(celula).innerHTML;
+    if (celulaclida == 'X' || celulaclicada == 'O') {
+        alert("Este quadrado já foi escolhido");
+    } else {
+        document.getElementById(celula).innerHTML = letra;
+        if (letra=='X'){
+            letra='O'
+        } else {
+            letra='X'
+        }
+    }
 }
 function novo() {
     for (i=1; i<4 ; i++) {
