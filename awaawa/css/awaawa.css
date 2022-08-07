@@ -1,0 +1,24 @@
+.container {
+    width: 30%;
+    font-family: sans-serif;
+    background-color: aqua;
+    text-align: center;
+}
+.casa {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border:blueviolet 3px solid;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.linha {
+    height: 100%;
+    width: 100%;
+    border:blue 3px solid;
+}
+
+#botao {
+    border-radius: 20px;
+    display: block;
+}
