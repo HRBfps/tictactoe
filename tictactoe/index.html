@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/awaawa.css">
     <title>Jogo da Velha</title>
-    <script src="./js/jogodavelha.js"></script>
+    <script type="text/javascript"src="./js/jogodavelha.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="casa">
-            <div class="linha" id="cell11"></div>
-            <div class="linha" id="cell12"></div>
-            <div class="linha" id="cell13"></div>
+            <div class="linha" id="cell11" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell12" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell13" onclick="joga(this.id);verifica()"></div>
         </div>
          <div class="casa">
-            <div class="linha" id="cell21"></div>
-            <div class="linha" id="cell22"></div>
-            <div class="linha" id="cell23"></div>
+            <div class="linha" id="cell21" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell22" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell23" onclick="joga(this.id);verifica()"></div>
         </div>
         <div class="casa">
-            <div class="linha" id="cell31"></div>
-            <div class="linha" id="cell32"></div>
-            <div class="linha" id="cell33"></div>
+            <div class="linha" id="cell31" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell32" onclick="joga(this.id);verifica()"></div>
+            <div class="linha" id="cell33" onclick="joga(this.id);verifica()"></div>
         </div>
          <div class="botao">
-           <input type="button" id="botao" value="Restart">
+           <input type="button" id="botao" value="Restart"onclick=(novo)>
          </div>
     </div>
 </body>
