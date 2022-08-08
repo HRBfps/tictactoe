@@ -13,14 +13,6 @@ function joga(celula) {
         }
     }
 }
-function novo() {
-    for (i=1; i<4 ; i++) {
-        for(j=1; j<4; j++) {
-            nomecelula = 'cel' + i + j
-            document.getElementById(nomecelula).innerHTML = '';
-        }
-    }
-}
 
 function verif() {
     c11 = document.getElementById('cell11').innerHTML; //1 2 3  11 12 13
@@ -43,4 +35,12 @@ function verif() {
         alert('You are the winner!');
         novo();
 }
+}
+function novo() {
+    for (i=1; i<4 ; i++) {
+        for(j=1; j<4; j++) {
+            nomecelula = 'cel' + i + j
+            document.getElementById(nomecelula).innerHTML = '';
+        }
+    }
 }
